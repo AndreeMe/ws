@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="453453f2-d397-4aee-87e5-35c7925eebc7">
+  <name>ex</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ex</value>
+  </synonym>
+  <namespace>http://localhost/ex</namespace>
+  <descriptorFileName>ex.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="c9f3f9f0-295e-4142-b5a4-99f8bf1e087a">
+    <name>put</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>put</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d8edc4c9-4897-412a-b6eb-65c692cfa3b0">
+      <name>xml</name>
+      <synonym>
+        <key>ru</key>
+        <value>Xml</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="45add602-7394-4cf9-9b7f-4ccab3787732">
+      <name>type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Type</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+</mdclass:WebService>

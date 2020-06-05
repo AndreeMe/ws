@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e76aa08a-cf01-4c47-9e7c-4ad43a005cdc">
+  <producedTypes>
+    <objectType typeId="d3dca2d0-b3b1-4f68-b74b-6e664cfa9201" valueTypeId="f33c7bb6-14bb-482b-a378-9c39b16d136c"/>
+    <refType typeId="82cdbb28-abbe-482a-888e-cb4d715abdb2" valueTypeId="2aa03396-e823-4995-ab14-ce18e519bbcb"/>
+    <selectionType typeId="920c9e1a-3677-4d20-b73b-ca9384d64ab1" valueTypeId="5e8192cb-c99c-4463-9e48-235d9a02f03a"/>
+    <listType typeId="82ca9017-4b76-4657-9a8a-325e65bcd218" valueTypeId="6f24c2f4-50c8-46e2-b191-b064f71e263c"/>
+    <managerType typeId="5f9f7607-ec8f-40e1-bacc-930396e7e9b7" valueTypeId="51c9283f-187c-431c-b966-fa99e56271eb"/>
+  </producedTypes>
+  <name>wsТипыСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.wsТипыСообщений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.wsТипыСообщений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

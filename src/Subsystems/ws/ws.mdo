@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d656fca9-eaf8-46e4-94f6-56be453bdecf">
+  <name>ws</name>
+  <synonym>
+    <key>ru</key>
+    <value>ws</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GetURL</picture>
+  </picture>
+  <content>CommonModule.wsЛоги</content>
+  <content>WebService.ex</content>
+  <content>InformationRegister.wsОбработки</content>
+  <content>CommonModule.wsОбработчики</content>
+  <content>CommonModule.wsГлобальныеЗначенияПовтИсп</content>
+  <content>Role.ws</content>
+  <content>Catalog.wsТипыСообщений</content>
+  <content>InformationRegister.wsОчередьВходящихСообщений</content>
+</mdclass:Subsystem>

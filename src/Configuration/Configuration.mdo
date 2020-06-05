@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43babd69-8888-4994-b525-970540ae2ca9">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be31415b-2a5c-4240-8be1-46901f0aa8d2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8c953794-ba4a-4690-82df-99ce3b10f6e2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6655bae7-1b2f-4494-80d2-9b319c866dd0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1e308541-1676-4817-a2f9-05628b363fba"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="34d608c5-bef9-48f0-a3f6-a4e7d7c08615"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6bd61c8d-07e4-4ce6-9f4b-c02612ff79e3"/>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ws</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
+  <languages uuid="732fc78d-d558-415e-9909-ebf5e78fa4a7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ws</subsystems>
+  <roles>Role.ws</roles>
+  <commonModules>CommonModule.wsОбработчики</commonModules>
+  <commonModules>CommonModule.wsЛоги</commonModules>
+  <commonModules>CommonModule.wsГлобальныеЗначенияПовтИсп</commonModules>
+  <webServices>WebService.ex</webServices>
+  <catalogs>Catalog.wsТипыСообщений</catalogs>
+  <informationRegisters>InformationRegister.wsОбработки</informationRegisters>
+  <informationRegisters>InformationRegister.wsОчередьВходящихСообщений</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5ab395b-f090-4eba-b899-5fc9c65b8513">
+  <name>aem</name>
+  <synonym>
+    <key>ru</key>
+    <value>aem</value>
+  </synonym>
+  <namespace>http://aem</namespace>
+</mdclass:XDTOPackage>

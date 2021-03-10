@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c35ccc1-92b2-4952-bb94-09c0cb87485f">
+  <name>aemОбщийМодуль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Aem общий модуль</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78d4b4d5-623b-4747-b020-905043598a49">
+  <producedTypes>
+    <objectType typeId="e5a38367-6df1-4721-a511-aefd9d21e288" valueTypeId="09d8b697-d959-4501-b2b9-1dbebdac6bca"/>
+    <managerType typeId="45368417-abf2-4116-988e-956672691544" valueTypeId="545cfd7b-0af9-4ee9-a709-0d3839676cf6"/>
+  </producedTypes>
+  <name>ВыгрузкаКАЗвЕРПВходящее_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка КАЗ в ЕРП входящее_1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c7ae9484-f8d3-45a7-8145-be91f13e6fde">
+    <name>Таблица_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="1919e6b3-d2bb-4130-bba1-532eda5ec6cc">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

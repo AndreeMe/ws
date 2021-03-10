@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f17c78ff-55b1-4e4d-a53a-a7ed9475f1e5">
+  <name>aem_ИнтеграцияСАСЖДВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АСЖДВ (АЭМ)</value>
+  </synonym>
+</mdclass:Role>

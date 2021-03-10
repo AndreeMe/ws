@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99f0ed27-fabd-4d34-b0ec-7d734c6253e2">
+  <producedTypes>
+    <refType typeId="e4a83038-909e-4f03-a18e-0d3e0bb08849" valueTypeId="e5ba3be4-c7b9-4f35-a6d6-8466a33a0ee3"/>
+    <listType typeId="aa0a61af-2366-4caf-b5d0-f719d03719d5" valueTypeId="a0910862-1486-4dc0-9429-22d5891c71f9"/>
+    <managerType typeId="b68ed745-2684-4891-80e5-6e994d25865f" valueTypeId="f3cd2d15-0089-4a7b-9047-6767ef8195b0"/>
+  </producedTypes>
+  <name>aemСтатусыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обмена (АЭМ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30b2cdcd-5c05-45e6-8aec-f55072b9b807">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bec89881-e231-4fd9-8be2-21bfb982fca4">
+    <name>НеОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

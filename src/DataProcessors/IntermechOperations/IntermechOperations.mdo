@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c80e010e-ac01-49a3-b50e-a1cd366006fd">
+  <producedTypes>
+    <objectType typeId="0c8c395a-7e57-484c-9e23-d36d92aeeceb" valueTypeId="a96b636c-290f-41c2-9b67-f9dfbc339d0c"/>
+    <managerType typeId="fa9e076a-0f9e-479a-b0c5-edda9c4f06c0" valueTypeId="f6329f69-6f6c-4db5-b96a-c17d5af5bb85"/>
+  </producedTypes>
+  <name>IntermechOperations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Intermech operations</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

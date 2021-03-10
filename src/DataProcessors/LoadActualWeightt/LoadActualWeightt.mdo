@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695dbecc-f0de-4d44-8c85-ba0b03e52ce7">
+  <producedTypes>
+    <objectType typeId="732c3c54-bf9e-4919-9ae4-a87bd67c87ff" valueTypeId="65cbf619-4252-410f-b642-7da63a8829a0"/>
+    <managerType typeId="883eb4fd-e2a4-476f-97c7-273673e2d9d2" valueTypeId="ab2b02ee-e6df-44cb-854f-9a036a943659"/>
+  </producedTypes>
+  <name>LoadActualWeightt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Load actual weightt</value>
+  </synonym>
+  <comment>// используется при загрузке фактического веса материала из АСЖДВ</comment>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b3038c5-7749-4e1b-a6f4-503968ee550e">
+  <name>aem_askvt</name>
+  <synonym>
+    <key>ru</key>
+    <value>Aem askvt</value>
+  </synonym>
+  <namespace>http://aem_askvt</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff52c6fb-9918-4454-b44d-57babfa0f21c">
+  <name>aem_intermech</name>
+  <synonym>
+    <key>ru</key>
+    <value>intermech</value>
+  </synonym>
+  <namespace>http://aem_intermech</namespace>
+</mdclass:XDTOPackage>

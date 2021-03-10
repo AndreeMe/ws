@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b0be2b1-8fd9-415b-8fc6-729bf827d5d2">
+  <name>ws_aem</name>
+  <synonym>
+    <key>ru</key>
+    <value>aem</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.aem_ИнтеграцияСАСЖДВ</content>
+  <content>XDTOPackage.aem</content>
+  <content>WebService.aem</content>
+  <content>Document.ТранспортнаяНакладная</content>
+  <content>Role.aem_ИнтеграцияСАСКВТ</content>
+  <content>Role.aem_ИнтеграцияСАСКАТ</content>
+  <content>Enum.aemТипыПеревозки</content>
+  <content>Enum.aemСтатусыОбмена</content>
+  <content>DataProcessor.ВыгрузкаРаспоряженияНаПровесВАСЖДВ</content>
+  <content>DataProcessor.LoadActualWeightt</content>
+  <content>DataProcessor.LoadIncomingMaterials</content>
+  <content>DataProcessor.ВыгрузкаКАЗвЕРПВходящее_1</content>
+  <content>DataProcessor.ОтзывТранспортнойНакладнойИзАСКВТ</content>
+  <content>DataProcessor.ВыгрузкаТранспортнойНакладнойВАСКВТ</content>
+  <content>WebService.intermech</content>
+  <content>WebService.ekp</content>
+  <content>WebService.ekk</content>
+  <content>CommonModule.aemИнтеграция</content>
+</mdclass:Subsystem>

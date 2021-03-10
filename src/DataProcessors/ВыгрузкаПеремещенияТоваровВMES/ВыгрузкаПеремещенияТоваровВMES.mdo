@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47337c98-a673-482d-a82a-fa3b274f9e0b">
+  <producedTypes>
+    <objectType typeId="9af9e2c8-4408-4d13-a842-2b2cab396002" valueTypeId="a692cbe2-e652-4ee9-9a92-9eb33ea7ee29"/>
+    <managerType typeId="916b883d-01db-4c96-a1bf-3c38761c34b9" valueTypeId="217d40c4-46e6-499a-a1b1-8235eb9d7d7f"/>
+  </producedTypes>
+  <name>ВыгрузкаПеремещенияТоваровВMES</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка перемещения товаров в MES</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

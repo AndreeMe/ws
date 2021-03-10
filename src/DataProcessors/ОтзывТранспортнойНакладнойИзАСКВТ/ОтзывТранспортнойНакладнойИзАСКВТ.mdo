@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70fa4d0e-85df-46a0-83fa-a35cdb3545fe">
+  <producedTypes>
+    <objectType typeId="893a0823-babc-4d0d-a95b-47000a23e96c" valueTypeId="2dd1a746-811c-467e-9802-8bc5deee19ff"/>
+    <managerType typeId="07bec180-2724-4415-abf7-3fb3dce6e0a2" valueTypeId="bd67e2c0-8351-46d3-88f6-dfb799d147b9"/>
+  </producedTypes>
+  <name>ОтзывТранспортнойНакладнойИзАСКВТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отзыв транспортной накладной из АСКВТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

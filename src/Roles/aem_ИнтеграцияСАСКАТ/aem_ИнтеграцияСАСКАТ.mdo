@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7947f43-66d9-4ced-bfd7-41fb4c9a1f6f">
+  <name>aem_ИнтеграцияСАСКАТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АСКАТ (АЭМ)</value>
+  </synonym>
+</mdclass:Role>

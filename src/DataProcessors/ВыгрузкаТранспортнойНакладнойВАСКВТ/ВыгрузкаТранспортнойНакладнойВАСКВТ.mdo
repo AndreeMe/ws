@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc90ee85-effc-4c46-b6e0-5b47d611d719">
+  <producedTypes>
+    <objectType typeId="024d90b7-ad36-4282-81fa-a3319f5315b0" valueTypeId="fef67fef-85db-4210-b481-bba3b1efb80e"/>
+    <managerType typeId="10e54f33-f8cc-444c-9dfc-276b49a22fa5" valueTypeId="5d720aef-a2e9-4f50-bf5d-cb524a1e4f22"/>
+  </producedTypes>
+  <name>ВыгрузкаТранспортнойНакладнойВАСКВТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка транспортной накладной в АСКВТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

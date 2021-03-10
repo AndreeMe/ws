@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5d8cce4-cfa1-40e7-8910-9dacc9362254">
+  <producedTypes>
+    <objectType typeId="b356d6da-c297-42d9-a6c2-b3462b57a92d" valueTypeId="bfdbf695-c0b5-4725-b656-8c6e62789753"/>
+    <managerType typeId="465f0270-04e6-4bff-8ada-bca44cbf5018" valueTypeId="c53c2d6c-cfc1-4149-9c37-e98ca50a1b9d"/>
+  </producedTypes>
+  <name>ВыгрузкаЗаказаНаПроизводствоВMES</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка заказа на производство в MES</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

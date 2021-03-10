@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d39a8423-6efd-41fa-8e67-47c7d0f18d08">
+  <producedTypes>
+    <objectType typeId="acb42aa0-a211-400b-86e4-a5f5590bac62" valueTypeId="5acf70a4-d32c-457e-8499-b0ff3bb8fcd7"/>
+    <managerType typeId="050e876d-b761-4a39-b003-0565c0b4912e" valueTypeId="892e8a95-a9c7-4f6d-9f64-62ddecb83dc8"/>
+  </producedTypes>
+  <name>ВыгрузкаРаспоряженияНаПровесВАСЖДВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка распоряжения на провес в АСЖДВ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

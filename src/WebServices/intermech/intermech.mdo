@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b86fe6e-7b0b-4c3c-91b4-bd7736604f24">
+  <name>intermech</name>
+  <synonym>
+    <key>ru</key>
+    <value>intermech</value>
+  </synonym>
+  <namespace>intermech</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.aem_intermech</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>intermech.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="4b5d604f-e55b-4951-96dc-b0ba889db25b">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="822378f7-bf43-48f3-9e41-2d3ec3f43cec">
+    <name>LoadOperations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Load operations</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>OPERATIONS</name>
+      <nsUri>http://aem_intermech</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadOperations</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e20722f5-d9d5-4ad2-9ec8-42e136354b20">
+      <name>OPERATIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPERATIONS</value>
+      </synonym>
+      <xdtoValueType>
+        <name>OPERATIONS</name>
+        <nsUri>http://aem_intermech</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c0842898-616e-4658-84d6-e5862f05c343">
+    <name>Termo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Termo</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>OPERATIONS</name>
+      <nsUri>http://aem_intermech</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadOperations</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7efe95da-8e89-40e4-a58d-d8ef06c6d5d5">
+      <name>OPERATIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPERATIONS</value>
+      </synonym>
+      <xdtoValueType>
+        <name>OPERATIONS</name>
+        <nsUri>http://aem_intermech</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="8cef23c3-4e84-4bd3-afb0-87921d0eb018">
+    <name>Kovka</name>
+    <synonym>
+      <key>ru</key>
+      <value>Kovka</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>OPERATIONS</name>
+      <nsUri>http://aem_intermech</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadOperations</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1172a209-e595-4b60-99f6-560b2a1ae13b">
+      <name>OPERATIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPERATIONS</value>
+      </synonym>
+      <xdtoValueType>
+        <name>OPERATIONS</name>
+        <nsUri>http://aem_intermech</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

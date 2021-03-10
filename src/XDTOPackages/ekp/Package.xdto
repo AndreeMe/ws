@@ -1,0 +1,35 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://aem_ekp" elementFormQualified="true" attributeFormQualified="false">
+	<property name="Детали">
+		<typeDef xsi:type="ObjectType">
+			<property name="Level" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="Material" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="MDM_key" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="Weight" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="HeatTime" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="Konteiner" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="Batch" type="xs:string" lowerBound="0" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="ОбменЭКП_САП">
+		<typeDef xsi:type="ObjectType">
+			<property name="ВерсияФормата" type="xs:decimal" lowerBound="0" form="Attribute"/>
+			<property name="ДатаВыгрузки" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="IDRequest" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="Production" type="xs:unsignedLong" lowerBound="0" form="Attribute"/>
+			<property name="HeatNumber" type="xs:unsignedInt" lowerBound="0" form="Attribute"/>
+			<property name="WeightSteel" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+			<property name="Shep" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="UGAR" type="xs:decimal" lowerBound="0" form="Attribute"/>
+			<property name="StartDate1" type="xs:date" lowerBound="0" form="Attribute"/>
+			<property name="StartTime1" type="xs:time" lowerBound="0" form="Attribute"/>
+			<property name="StartDate2" type="xs:date" lowerBound="0" form="Attribute"/>
+			<property name="StartTime2" type="xs:time" lowerBound="0" form="Attribute"/>
+			<property name="Oxygen" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://aem_ekp" name="Операции" type="d4p1:ОперацииType" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<objectType name="ОперацииType">
+		<property name="КодОперации" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://aem_ekp" ref="d3p1:Детали" lowerBound="0"/>
+	</objectType>
+</package>

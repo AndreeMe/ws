@@ -1,0 +1,59 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://aem_askvt" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<property name="root">
+		<typeDef xsi:type="ObjectType">
+			<property name="datetime" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="document" type="xs:anyType" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<objectType name="root">
+		<property name="datetime" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://aem_askvt" name="document" type="d3p1:document" lowerBound="0"/>
+	</objectType>
+	<objectType name="document">
+		<property name="uid" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="delete" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+		<property name="number" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="datetime" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://aem_askvt" name="title" type="d3p1:title" lowerBound="1"/>
+		<property xmlns:d3p1="http://aem_askvt" name="rows" type="d3p1:rows"/>
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="title">
+		<property xmlns:d3p1="http://aem_askvt" name="organization" type="d3p1:client" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem_askvt" name="consignee" type="d3p1:client" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem_askvt" name="contractor" type="d3p1:client" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem_askvt" name="shipper" type="d3p1:client" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem_askvt" name="car" type="d3p1:car" lowerBound="0"/>
+		<property name="comment" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="rows">
+		<property xmlns:d3p1="http://aem_askvt" name="row" type="d3p1:row" upperBound="-1"/>
+	</objectType>
+	<objectType name="car">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="driver" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="mark" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="trailer_id" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="client">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="name" type="xs:string" lowerBound="0"/>
+		<property name="inn" type="xs:string" lowerBound="0"/>
+		<property name="kpp" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="row">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://aem_askvt" name="nomenclature" type="d3p1:nomenclature" lowerBound="0"/>
+		<property name="quantity" type="xs:decimal" lowerBound="0"/>
+		<property name="weight" type="xs:decimal" lowerBound="0"/>
+		<property name="summ" type="xs:decimal" lowerBound="0"/>
+		<property name="tare" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="nomenclature">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="name" type="xs:string" lowerBound="0"/>
+		<property name="quantity_unit" type="xs:string" lowerBound="0"/>
+		<property name="weight_unit" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

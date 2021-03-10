@@ -1,0 +1,25 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://aem_intermech" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="OPERATIONS">
+		<property xmlns:d3p1="http://aem_intermech" name="item" type="d3p1:item" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://aem_intermech" name="op" type="d3p1:op" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="item">
+		<property name="KDAUF" type="xs:string" lowerBound="0"/>
+		<property name="KDPOS" type="xs:string" lowerBound="0"/>
+		<property name="VTPOS" type="xs:string" lowerBound="0"/>
+		<property name="LTXA1" type="xs:string" lowerBound="0"/>
+		<property name="ARBPL" type="xs:string" lowerBound="0"/>
+		<property name="CEH" type="xs:string" lowerBound="0"/>
+		<property name="VGW01" type="xs:decimal" lowerBound="0"/>
+	</objectType>
+	<objectType name="op">
+		<property name="KDAUF" type="xs:string" lowerBound="0"/>
+		<property name="KDPOS" type="xs:string" lowerBound="0"/>
+		<property name="KDROUTE" type="xs:string" lowerBound="0"/>
+		<property name="LTXA1" type="xs:string" lowerBound="0"/>
+		<property name="ARBPL" type="xs:string" lowerBound="0"/>
+		<property name="VGW01" type="xs:decimal" lowerBound="0"/>
+		<property name="OPKEY" type="xs:string" lowerBound="0"/>
+	</objectType>
+</package>

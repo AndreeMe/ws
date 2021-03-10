@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bfdbc5b-38fb-40f8-9a59-26d6b93fabac">
+  <producedTypes>
+    <objectType typeId="38fe2063-9c2e-4792-b7d6-98c6d8624d4f" valueTypeId="6a355fdf-0e38-4d4f-b639-b98548332729"/>
+    <managerType typeId="56493e78-6766-4846-84be-7995b3ffe9da" valueTypeId="6feca5fd-898a-4433-8001-e1cc9488b48c"/>
+  </producedTypes>
+  <name>ВыгрузкаДокументовВАСКАТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка документов в АСКАТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

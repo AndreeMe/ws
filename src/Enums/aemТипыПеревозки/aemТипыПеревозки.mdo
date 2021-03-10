@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f767781-fe77-492f-9460-af020fd990a1">
+  <producedTypes>
+    <refType typeId="d23cf181-770f-4b62-85a5-c4b766323ea6" valueTypeId="2126e81e-ab13-4193-b8bd-40e8218d3a33"/>
+    <listType typeId="fa74be24-71d6-4c92-a3af-5d787a40804f" valueTypeId="14fd7503-605a-4627-8720-63fed2f6c1a1"/>
+    <managerType typeId="82fdb463-7280-4188-82fb-15aa4ffc6862" valueTypeId="aed7b45f-4a38-4438-8858-bbb31380e434"/>
+  </producedTypes>
+  <name>aemТипыПеревозки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы перевозки (АЭМ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cdf54b72-7cc4-4b8b-b33b-c8185253c208">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3320a89-c918-471f-b689-413c76e40e66">
+    <name>Жд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жд</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

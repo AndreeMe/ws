@@ -1,0 +1,107 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://aem" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://v8.1c.ru/8.1/data/core"/>
+	<objectType name="WeightOrder" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://aem" name="WeightOrderItem" type="d3p1:WeightOrderItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="WeightOrderItem">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="UID" type="d3p1:UUID"/>
+		<property name="WEIGHT" type="xs:decimal"/>
+		<property name="NUMBER" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="DATETIME" type="xs:dateTime" lowerBound="0" nillable="true"/>
+		<property name="ROW_ID" type="xs:unsignedByte" lowerBound="0" nillable="true"/>
+		<property name="WORKSHOP_IN_ID" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="WORKSHOP_IN_NAME" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="WORKSHOP_OUT_ID" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="WORKSHOP_OUT_NAME" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="NOMENCLATURE_ID" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="NOMENCLATURE_NAME" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="UNIT" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="VAGON" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="TARE" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="CAR" type="xs:string" lowerBound="0" nillable="true"/>
+		<property name="USER" type="xs:string" lowerBound="0" nillable="true"/>
+	</objectType>
+	<objectType name="MaterialsReceiptTicket" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://aem" name="MaterialsReceiptItem" type="d3p1:MaterialsReceiptItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="MaterialsReceiptItem">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="UID" type="d3p1:UUID"/>
+		<property name="WEIGHT" type="xs:decimal"/>
+		<property name="WEIGHT_GROSS" type="xs:decimal"/>
+		<property name="WEIGHT_TARE" type="xs:decimal"/>
+		<property name="NUMBER" type="xs:string"/>
+		<property name="DATETIME" type="xs:dateTime"/>
+		<property name="ROW_ID" type="xs:string"/>
+		<property name="WEIGHER" type="xs:string"/>
+		<property name="SUPPLIR_ID" type="xs:string"/>
+		<property name="SUPPLIR_NAME" type="xs:string"/>
+		<property name="NOMENCLATURE_ID" type="xs:string"/>
+		<property name="NOMENCLATURE_NAME" type="xs:string"/>
+		<property name="UNIT" type="xs:string"/>
+		<property name="VAGON" type="xs:string"/>
+		<property name="CAR" type="xs:string"/>
+		<property name="CAR_BRAND" type="xs:string"/>
+		<property name="INN" type="xs:string"/>
+		<property name="BLOCKAGE" type="xs:decimal"/>
+		<property name="DRIVER" type="xs:string"/>
+		<property name="PASSPORT" type="xs:long"/>
+	</objectType>
+	<objectType name="MoveApplicationDocument">
+		<property name="author" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="date" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="number" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="recipient" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="recipient_ws" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="sender" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="sender_ws" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="uid" type="d3p1:UUID"/>
+		<property xmlns:d3p1="http://aem" name="item" type="d3p1:MoveApplicationItem" upperBound="-1"/>
+	</objectType>
+	<objectType name="MoveApplicationItem">
+		<property name="cargo" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="quantity" type="xs:float" lowerBound="0" form="Attribute"/>
+		<property name="unit" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="amount" type="xs:float" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="ExportCargo">
+		<property xmlns:d3p1="http://v8.1c.ru/8.1/data/core" name="uid" type="d3p1:UUID" lowerBound="0" form="Attribute"/>
+		<property name="datetime" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="number" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://aem" name="organization" type="d3p1:Contractor" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem" name="consignee" type="d3p1:Contractor" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem" name="contractor" type="d3p1:Contractor" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem" name="shipper" type="d3p1:Contractor" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem" name="car" type="d3p1:Car" lowerBound="0"/>
+		<property name="type" type="xs:unsignedByte" lowerBound="0" form="Attribute"/>
+		<property name="delete" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="comment" type="xs:anyType" lowerBound="0"/>
+		<property xmlns:d3p1="http://aem" name="rows" type="d3p1:ExportCargoRows" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="ExportCargoRows">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://aem" name="nomenclature" type="d3p1:Nomenclature" lowerBound="0"/>
+		<property name="quantity" type="xs:decimal" lowerBound="0"/>
+		<property name="weight" type="xs:decimal" lowerBound="0"/>
+		<property name="summ" type="xs:decimal" lowerBound="0"/>
+		<property name="tare" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Nomenclature">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="name" type="xs:string" lowerBound="0"/>
+		<property name="quantity_unit" type="xs:string" lowerBound="0"/>
+		<property name="weight_unit" type="xs:anyType" lowerBound="0"/>
+	</objectType>
+	<objectType name="Contractor">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="name" type="xs:string" lowerBound="0"/>
+		<property name="inn" type="xs:string" lowerBound="0"/>
+		<property name="kpp" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="Car">
+		<property name="id" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="driver" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="mark" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="trailer_id" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+</package>

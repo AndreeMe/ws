@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31600fb0-6176-425b-91bc-955c0dde6b60">
+  <name>aem</name>
+  <synonym>
+    <key>ru</key>
+    <value>aem</value>
+  </synonym>
+  <namespace>aem</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.aem</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.aem_askvt</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.aem_intermech</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>aem.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="a70b1fa8-8e7b-4d5b-9520-33b462f3662b">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="27080455-606e-4fe0-aade-e41e1feb94fe">
+    <name>LoadIncomingMaterials</name>
+    <synonym>
+      <key>ru</key>
+      <value>Load incoming materials</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadIncomingMaterials</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="8eb480df-f0ff-4984-84b5-8518ca9f68a9">
+      <name>MaterialsReceiptItem</name>
+      <synonym>
+        <key>ru</key>
+        <value>Materials receipt item</value>
+      </synonym>
+      <xdtoValueType>
+        <name>MaterialsReceiptItem</name>
+        <nsUri>http://aem</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4d9a0c7d-f0a3-4d23-9215-63d34b5bef7a">
+    <name>LoadActualWeight</name>
+    <synonym>
+      <key>ru</key>
+      <value>Load actual weight</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadActualWeight</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="817dc791-6330-4188-90e5-520ffdb4e1ff">
+      <name>WeightOrderItem</name>
+      <synonym>
+        <key>ru</key>
+        <value>Weight order item</value>
+      </synonym>
+      <xdtoValueType>
+        <name>WeightOrderItem</name>
+        <nsUri>http://aem</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="73f3d858-d797-45eb-b54d-5c1d33ce945c">
+    <name>LoadKaz</name>
+    <synonym>
+      <key>ru</key>
+      <value>Load kaz</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>LoadKaz</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="add98853-7a13-4685-9590-169744557b73">
+      <name>Rows</name>
+      <synonym>
+        <key>ru</key>
+        <value>Rows</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

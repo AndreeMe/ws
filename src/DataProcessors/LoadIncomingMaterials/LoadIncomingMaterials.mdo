@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c978b273-160a-4614-9259-2a8606a12582">
+  <producedTypes>
+    <objectType typeId="6e254cdf-86df-4bb5-be6b-59ab12892bd0" valueTypeId="dfdc2c31-1691-421c-a033-8c2020eb07d8"/>
+    <managerType typeId="8a4e83e6-f1ce-4c68-adea-b8896eca36fb" valueTypeId="c425ce9d-1ddb-4511-a76a-752d2cb7dad3"/>
+  </producedTypes>
+  <name>LoadIncomingMaterials</name>
+  <synonym>
+    <key>ru</key>
+    <value>Load incoming materials</value>
+  </synonym>
+  <comment>// формировать документы «АЭМ_ПриходныйОрдерИзАСЖДВ»</comment>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88e614ca-4cb4-4087-8872-320e96e53b8a">
+  <producedTypes>
+    <objectType typeId="ee9b1ea7-bdfe-4bf2-85bb-bcc66d7b5be9" valueTypeId="5de2003b-933a-466a-adaa-fad952487979"/>
+    <managerType typeId="faa3970f-53be-4ea2-86dd-20125ff828b2" valueTypeId="e4523b1e-c06e-448c-85da-151c663546c1"/>
+  </producedTypes>
+  <name>ВыгрузкаЭтапаПроизводстваЭКП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка этапа производства ЭКП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

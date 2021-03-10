@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>InformationRegister.wsОбработки.StandardCommand.OpenList</command>
+      <command>InformationRegister.wsОчередьСообщений.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -11,13 +11,18 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
-      <commands>InformationRegister.wsОбработки.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.wsОчередьСообщений.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
+      <commands>InformationRegister.wsОчередьСообщений.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.wsОбработки.StandardCommand.OpenList</commands>
+      <commands>Catalog.wsТипыСообщений.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

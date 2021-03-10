@@ -3,18 +3,21 @@
   <name>ws</name>
   <synonym>
     <key>ru</key>
-    <value>ws</value>
+    <value>Интеграция</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.GetURL</picture>
+    <picture>CommonPicture.ws_link16</picture>
   </picture>
-  <content>CommonModule.wsЛоги</content>
-  <content>WebService.ex</content>
+  <content>WebService.aem</content>
   <content>InformationRegister.wsОбработки</content>
-  <content>CommonModule.wsОбработчики</content>
-  <content>CommonModule.wsГлобальныеЗначенияПовтИсп</content>
   <content>Role.ws</content>
   <content>Catalog.wsТипыСообщений</content>
-  <content>InformationRegister.wsОчередьВходящихСообщений</content>
+  <content>InformationRegister.wsОчередьСообщений</content>
+  <content>Enum.wsНаправлениеСообщения</content>
+  <content>XDTOPackage.aem</content>
+  <content>CommonModule.wsОбработчики</content>
+  <content>CommonModule.wsЛоги</content>
+  <content>Catalog.wsНастройкиВебСервисов</content>
+  <content>WebService.ekk</content>
 </mdclass:Subsystem>

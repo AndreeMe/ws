@@ -11,12 +11,13 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.ws</defaultRoles>
+  <defaultRoles>Role.ws_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="732fc78d-d558-415e-9909-ebf5e78fa4a7">
     <name>Русский</name>
@@ -27,12 +28,48 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ws</subsystems>
+  <subsystems>Subsystem.ws_aem</subsystems>
+  <commonPictures>CommonPicture.ws</commonPictures>
+  <commonPictures>CommonPicture.ws_16_16</commonPictures>
+  <commonPictures>CommonPicture.ws16</commonPictures>
+  <commonPictures>CommonPicture.ws_link16</commonPictures>
+  <roles>Role.ws_ОсновнаяРоль</roles>
   <roles>Role.ws</roles>
+  <roles>Role.aem_ИнтеграцияСАСЖДВ</roles>
+  <roles>Role.aem_ИнтеграцияСАСКВТ</roles>
+  <roles>Role.aem_ИнтеграцияСАСКАТ</roles>
   <commonModules>CommonModule.wsОбработчики</commonModules>
   <commonModules>CommonModule.wsЛоги</commonModules>
   <commonModules>CommonModule.wsГлобальныеЗначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.aemОбщийМодуль</commonModules>
+  <commonModules>CommonModule.aemИнтеграция</commonModules>
+  <xDTOPackages>XDTOPackage.aem</xDTOPackages>
+  <xDTOPackages>XDTOPackage.aem_askvt</xDTOPackages>
+  <xDTOPackages>XDTOPackage.aem_intermech</xDTOPackages>
+  <xDTOPackages>XDTOPackage.ekk</xDTOPackages>
+  <xDTOPackages>XDTOPackage.ekp</xDTOPackages>
+  <webServices>WebService.aem</webServices>
+  <webServices>WebService.intermech</webServices>
+  <webServices>WebService.ekp</webServices>
+  <webServices>WebService.ekk</webServices>
   <webServices>WebService.ex</webServices>
   <catalogs>Catalog.wsТипыСообщений</catalogs>
+  <catalogs>Catalog.wsНастройкиВебСервисов</catalogs>
+  <enums>Enum.wsНаправлениеСообщения</enums>
+  <enums>Enum.aemТипыПеревозки</enums>
+  <enums>Enum.aemСтатусыОбмена</enums>
+  <dataProcessors>DataProcessor.ВыгрузкаРаспоряженияНаПровесВАСЖДВ</dataProcessors>
+  <dataProcessors>DataProcessor.LoadActualWeightt</dataProcessors>
+  <dataProcessors>DataProcessor.LoadIncomingMaterials</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаДокументовВАСКАТ</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаТранспортнойНакладнойВАСКВТ</dataProcessors>
+  <dataProcessors>DataProcessor.ОтзывТранспортнойНакладнойИзАСКВТ</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаКАЗвЕРПВходящее_1</dataProcessors>
+  <dataProcessors>DataProcessor.IntermechOperations</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаЭтапаПроизводстваЭКК</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаЭтапаПроизводстваЭКП</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаЗаказаНаПроизводствоВMES</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаПеремещенияТоваровВMES</dataProcessors>
   <informationRegisters>InformationRegister.wsОбработки</informationRegisters>
-  <informationRegisters>InformationRegister.wsОчередьВходящихСообщений</informationRegisters>
+  <informationRegisters>InformationRegister.wsОчередьСообщений</informationRegisters>
 </mdclass:Configuration>
